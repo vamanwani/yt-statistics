@@ -3,8 +3,12 @@ Simple python script to get data from YouTube as a consumer who enjoys looking a
 
 ## How to get watch history
 You can access this file through Google Takeout (https://takeout.google.com/settings/takeout). 
-Once you have downloaded it you just need to decompress the file and get the path of the watch-history.html file.
+Once you have downloaded it you just need to decompress the file and get the path of the 'watch-history.html' file.
 
 ## How to run the script
 You will need to have lxml installed. If you don't, the command to do it is: 
-`pip install lxml`
+`pip install lxml` 
+
+Once you are in the directory, the command to run the script is: `python .\yt-stats.py`.
+
+Note: I am running Python 3.8 
